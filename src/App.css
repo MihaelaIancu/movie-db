@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: flex-start;
   flex-direction: column;
-  align-items: center;
+  row-gap: 20px;
+}
+
+.search {
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 25px !important;
+}
+
+.main {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.categories {
+  margin: 0 5% 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.categories > button {
+  height: 40px;
+  width: 220px;
+  margin-right: 30px;
+  border-radius: 20px;
 }
+
+.error {
+  color: red;
+  margin: 0 5% 2%;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ddd;
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+.pagination {
+  display: grid;
+  list-style: none;
+  margin-left: 23px;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.active a {
+  background-color: #1976d2;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+ul.pagination {
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+
+/* .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: red !important;
+} */
