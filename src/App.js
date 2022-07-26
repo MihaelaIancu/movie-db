@@ -67,11 +67,6 @@ class App extends React.Component {
           stareButon: null,
         });
         this.setState({ isLoading: false });
-        // Optional code to simulate delay
-        // setTimeout(() => {
-        //   this.setState({ movies: data.results });
-        //   this.setState({ isLoading: false });
-        // }, 3000);
         console.log(data);
       })
       .catch(() => {
