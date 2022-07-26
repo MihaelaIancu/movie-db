@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#### To see the final result, click here: [https://MihaelaIancu.github.io/movie-db](https://MihaelaIancu.github.io/movie-db)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -72,3 +74,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 API_URL: "https://api.themoviedb.org/3/movie/popular?api_key=56e1ea8d0afb446ae93eade7c586f902"
 
 api_key = 56e1ea8d0afb446ae93eade7c586f902
+
+## Commands used to publish react files in github:
+
+1. `git remote set-url origin`  [https://github.com/MihaelaIancu/todo-project](https://github.com/MihaelaIancu/todo-project)
+
+2. `npm run build` 
+
+3. `npm run deploy` 
