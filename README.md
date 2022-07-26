@@ -77,7 +77,7 @@ api_key = 56e1ea8d0afb446ae93eade7c586f902
 
 ## Commands used to publish react files in github:
 
-1. `git remote set-url origin`  [https://github.com/MihaelaIancu/todo-project](https://github.com/MihaelaIancu/todo-project)
+1. `git remote set-url origin`  [https://github.com/MihaelaIancu/movie-db](https://github.com/MihaelaIancu/movie-db)
 
 2. `npm run build` 
 
